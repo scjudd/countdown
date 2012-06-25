@@ -1,8 +1,8 @@
 function countdown(end) {
-    const DAYS = 1000 * 60 * 60 * 24;
-    const HOURS = DAYS / 24;
-    const MINUTES = HOURS / 60;
-    const SECONDS = MINUTES / 60;
+    var DAYS = 1000 * 60 * 60 * 24;
+    var HOURS = DAYS / 24;
+    var MINUTES = HOURS / 60;
+    var SECONDS = MINUTES / 60;
 
     var remaining = (end - new Date);
     var days = Math.floor(remaining / DAYS); remaining %= DAYS;
