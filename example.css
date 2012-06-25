@@ -1,0 +1,31 @@
+#header-countdown {
+    display: block;
+    position: relative;
+    left: 335px;
+    top: -131px;
+    font-family: 'Overlock', cursive;
+    font-size: 18px;
+    font-weight: normal;
+    width: 564px;
+    line-height: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    height: 212px;
+    border-left: 1px dotted #B75B4E;
+    color: #63051D;
+}
+
+#header-countdown:hover {
+    text-decoration: none;
+}
+
+#days, #hours, #minutes, #seconds {
+    background: #543219;
+    color: white;
+    padding: 3px 6px;
+    border: 2px solid #B75B4E;
+    border-radius: 6px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px black inset, 0 0 5px #B75B4E;
+    margin: 0 2px;
+}
